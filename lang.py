@@ -30,7 +30,6 @@ class Language:
             for j in self.enc_strings:
                 if s[i:i+len(j)] == j:
                     i+=len(j)
-                    #snew.append(s[i])
                 snew.append(s[i])
             i += 1
         return "".join(snew)
